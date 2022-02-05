@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="aperr.android.puzzledesrois.MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:background="#048b9a"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/choix_image"
+        android:textSize="15sp"
+        android:textColor="#ffffff"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="240dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginBottom="5dp"
+                android:clickable="true"
+                android:onClick="clickimage"
+                android:tag="clovis"
+                android:src="@drawable/clovis_mini2"/>
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="240dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:clickable="true"
+                android:onClick="clickimage"
+                android:tag="clotaire1"
+                android:src="@drawable/clotaire1_mini2" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="240dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:clickable="true"
+                android:onClick="clickimage"
+                android:tag="dagobert"
+                android:src="@drawable/dagobert_mini2"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="240dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginBottom="5dp"
+                android:clickable="true"
+                android:onClick="clickimage"
+                android:tag="pepin"
+                android:src="@drawable/pepin_mini2"/>
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="240dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:clickable="true"
+                android:onClick="clickimage"
+                android:tag="charlemagne"
+                android:src="@drawable/charlemagne_mini2" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="240dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:clickable="true"
+                android:onClick="clickimage"
+                android:tag="charles2"
+                android:src="@drawable/charles2_mini2" />
+
+            
+
+        </LinearLayout>
+
+	<LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="240dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginBottom="5dp"
+                android:clickable="true"
+                android:onClick="clickimage"
+                android:tag="phauguste"
+                android:src="@drawable/phauguste_mini2"/>
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="240dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:clickable="true"
+                android:onClick="clickimage"
+                android:tag="saintlouis"
+                android:src="@drawable/saintlouis_mini2"/>
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="240dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:clickable="true"
+                android:onClick="clickimage"
+                android:tag="philippelebel"
+                android:src="@drawable/philippelebel_mini2" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+            android:layout_width="200dp"
+            android:layout_height="240dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginBottom="5dp"
+            android:clickable="true"
+            android:onClick="clickimage"
+            android:tag="philippe6"
+            android:src="@drawable/philippe6_mini2"/>
+
+
+           <ImageView
+            android:layout_width="200dp"
+            android:layout_height="240dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:clickable="true"
+            android:onClick="clickimage"
+            android:tag="jean2"
+            android:src="@drawable/jean2_mini2"/>
+
+
+           <ImageView
+            android:layout_width="200dp"
+            android:layout_height="240dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:clickable="true"
+            android:onClick="clickimage"
+            android:tag="charles5"
+            android:src="@drawable/charles5_mini2"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+           <ImageView
+            android:layout_width="200dp"
+            android:layout_height="240dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginBottom="5dp"
+            android:clickable="true"
+            android:onClick="clickimage"
+            android:tag="charles6"
+            android:src="@drawable/charles6_mini2"/>
+
+
+            <ImageView
+            android:layout_width="200dp"
+            android:layout_height="240dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:clickable="true"
+            android:onClick="clickimage"
+            android:tag="charles7"
+            android:src="@drawable/charles7_mini2"/>
+
+            <ImageView
+            android:layout_width="200dp"
+            android:layout_height="240dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:clickable="true"
+            android:onClick="clickimage"
+            android:tag="louis11"
+            android:src="@drawable/louis11_mini2"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+           <ImageView
+            android:layout_width="200dp"
+            android:layout_height="240dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginBottom="5dp"
+            android:clickable="true"
+            android:onClick="clickimage"
+            android:tag="charles8"
+            android:src="@drawable/charles8_mini2"/>
+
+           <ImageView
+            android:layout_width="200dp"
+            android:layout_height="240dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:clickable="true"
+            android:onClick="clickimage"
+            android:tag="louis12"
+            android:src="@drawable/louis12_mini2"/>
+
+           <ImageView
+            android:layout_width="200dp"
+            android:layout_height="240dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:clickable="true"
+            android:onClick="clickimage"
+            android:tag="francois1"
+            android:src="@drawable/francois1_mini2"/> 
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+           <ImageView
+            android:layout_width="200dp"
+            android:layout_height="240dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginBottom="5dp"
+            android:clickable="true"
+            android:onClick="clickimage"
+            android:tag="henri2"
+            android:src="@drawable/henri2_mini2"/>
+
+           <ImageView
+            android:layout_width="200dp"
+            android:layout_height="240dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:clickable="true"
+            android:onClick="clickimage"
+            android:tag="francois2"
+            android:src="@drawable/francois2_mini2"/>
+
+           <ImageView
+            android:layout_width="200dp"
+            android:layout_height="240dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:clickable="true"
+            android:onClick="clickimage"
+            android:tag="charles9"
+            android:src="@drawable/charles9_mini2"/> 
+
+        </LinearLayout>
+
+         <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+           <ImageView
+            android:layout_width="200dp"
+            android:layout_height="240dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginBottom="5dp"
+            android:clickable="true"
+            android:onClick="clickimage"
+            android:tag="henri3"
+            android:src="@drawable/henri3_mini2"/>
+
+           <ImageView
+            android:layout_width="200dp"
+            android:layout_height="240dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:clickable="true"
+            android:onClick="clickimage"
+            android:tag="henri4"
+            android:src="@drawable/henri4_mini2"/>
+
+           <ImageView
+            android:layout_width="200dp"
+            android:layout_height="240dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:clickable="true"
+            android:onClick="clickimage"
+            android:tag="louis13"
+            android:src="@drawable/louis13_mini2"/> 
+
+        </LinearLayout>
+
+         <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+           <ImageView
+            android:layout_width="200dp"
+            android:layout_height="240dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginBottom="5dp"
+            android:clickable="true"
+            android:onClick="clickimage"
+            android:tag="louis14"
+            android:src="@drawable/louis14_mini2"/>
+
+           <ImageView
+            android:layout_width="200dp"
+            android:layout_height="240dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:clickable="true"
+            android:onClick="clickimage"
+            android:tag="louis15"
+            android:src="@drawable/louis15_mini2"/>
+
+           <ImageView
+            android:layout_width="200dp"
+            android:layout_height="240dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:clickable="true"
+            android:onClick="clickimage"
+            android:tag="louis16"
+            android:src="@drawable/louis16_mini2"/> 
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+           <ImageView
+            android:layout_width="200dp"
+            android:layout_height="240dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginBottom="5dp"
+            android:clickable="true"
+            android:onClick="clickimage"
+            android:tag="louis18"
+            android:src="@drawable/louis18_mini2"/>
+
+           <ImageView
+            android:layout_width="200dp"
+            android:layout_height="240dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:clickable="true"
+            android:onClick="clickimage"
+            android:tag="charles10"
+            android:src="@drawable/charles10_mini2"/>
+
+           <ImageView
+            android:layout_width="200dp"
+            android:layout_height="240dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:clickable="true"
+            android:onClick="clickimage"
+            android:tag="louisphilippe"
+            android:src="@drawable/louisphilippe_mini2"/> 
+
+           
+
+        </LinearLayout>
+
+        
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+</ScrollView>

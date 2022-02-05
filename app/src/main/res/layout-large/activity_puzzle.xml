@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_puzzle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#048b9a"
+    tools:context="aperr.android.puzzledesrois.puzzle"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titre_roi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="louisphilippe - Roi des Francs"
+        android:textSize="25sp"
+        android:textColor="#ffff00"/>
+
+    <LinearLayout
+        android:id="@+id/layer_roi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/roi"
+            android:layout_width="600dp"
+            android:layout_height="720dp"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true"
+            android:onClick="clickimage"
+            android:src="@drawable/louisphilippe" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/retour_jeu"
+            android:textSize="15sp"
+            android:textColor="#ffffff"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/puzzle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/louisphilippe_1"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/louisphilippe_2" />
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/louisphilippe_3"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/louisphilippe_4"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/louisphilippe_5"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/louisphilippe_6"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/louisphilippe_7"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/louisphilippe_8"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/louisphilippe_9"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/louisphilippe_10"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/louisphilippe_11"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/louisphilippe_12"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/louisphilippe_13"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/louisphilippe_14"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/louisphilippe_15"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/louisphilippe_16"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/louisphilippe_17"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/louisphilippe_18"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/louisphilippe_19"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/louisphilippe_20"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/louisphilippe_21"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/louisphilippe_22"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/louisphilippe_23"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/louisphilippe_24"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/louisphilippe_25"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/louisphilippe_26"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/louisphilippe_27"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/louisphilippe_28"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/louisphilippe_29"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/louisphilippe_30"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/felicitations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/felicitations"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:visibility="invisible"/>
+
+</LinearLayout>

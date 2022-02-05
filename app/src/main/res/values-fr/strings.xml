@@ -1,0 +1,9 @@
+<resources>
+    <string name="choix_image">Choisissez une image</string>
+    <string name="toucher_image">Touchez l\'image pour lancer le jeu</string>
+    <string name="retour_jeu">Touchez l\'image pour retourner au jeu</string>
+    <string name="fermeture">Confirmez la fermeture</string>
+    <string name="oui">Oui</string>
+    <string name="non">Non</string>
+    <string name="felicitations">Félicitations!</string>
+</resources>

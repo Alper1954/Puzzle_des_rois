@@ -1,0 +1,40 @@
+﻿<resources>
+    <string name="app_name" translatable="false">Puzzle des rois</string>
+    <string name="choix_image">Select an image</string>
+    <string name="toucher_image">Touch the image to start the game</string>
+    <string name="retour_jeu">Touch the image to return to the game</string>
+    <string name="fermeture">Exit?</string>
+    <string name="oui">Yes</string>
+    <string name="non">No</string>
+    <string name="felicitations">Congratulation!</string>
+    <string name="clovis" translatable="false">Clovis - Roi des Francs</string>
+    <string name="clotaire1" translatable="false">Clotaire Ier - Le Vieux</string>
+    <string name="dagobert" translatable="false">Dagobert Ier</string>
+    <string name="pepin" translatable="false">Pépin III - Le Bref</string>
+    <string name="charlemagne" translatable="false">Charlemagne - Le Grand</string>
+    <string name="charles2" translatable="false">Charles II - Le Chauve</string>
+    <string name="phauguste" translatable="false">Philippe II - Auguste</string>
+    <string name="saintlouis" translatable="false">Louis IX - Saint Louis</string>
+    <string name="philippelebel" translatable="false">Philippe IV - Le Bel</string>
+    <string name="philippe6" translatable="false">Philippe VI de Valois</string>
+    <string name="jean2" translatable="false">Jean II - Le Bon</string>
+    <string name="charles5" translatable="false">Charles V - Le Sage</string>
+    <string name="charles6" translatable="false">Charles VI - Le Fol</string>
+    <string name="charles7" translatable="false">Charles VII - Le Victorieux</string>
+    <string name="louis11" translatable="false">Louis XI - Le Prudent</string>
+    <string name="charles8" translatable="false">Charles VIII - L\'Affable</string>
+    <string name="louis12" translatable="false">Louis XII - Le Père du Peuple</string>
+    <string name="francois1" translatable="false">François Ier - Le Restaurateur des Lettres </string>
+    <string name="henri2" translatable="false">Henri II</string>
+    <string name="francois2" translatable="false">François II</string>
+    <string name="charles9" translatable="false">Charles IX</string>
+    <string name="henri3" translatable="false">Henri III</string>
+    <string name="henri4" translatable="false">Henri IV - Le Grand</string>
+    <string name="louis13" translatable="false">Louis XIII - Le Juste</string>
+    <string name="louis14" translatable="false">Louis XIV - Le Roi Soleil</string>
+    <string name="louis15" translatable="false">Louis XV - Le Bien Aimé</string>
+    <string name="louis16" translatable="false">Louis XVI - Louis le dernier</string>
+    <string name="louis18" translatable="false">Louis XVIII - Le Désiré</string>
+    <string name="charles10" translatable="false">Charles X</string>
+    <string name="louisphilippe" translatable="false">Louis-Philippe - Le roi Bourgeois</string>
+</resources>

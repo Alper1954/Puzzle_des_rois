@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#048b9a"
+    tools:context="aperr.android.puzzledesrois.image"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titre_roi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="philippelebel - Roi des Francs"
+        android:textSize="25sp"
+        android:textColor="#ffff00"/>
+
+    <ImageView
+        android:id="@+id/roi"
+        android:layout_width="600dp"
+        android:layout_height="720dp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        android:onClick="clickimage"
+        android:src="@drawable/clovis"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/toucher_image"
+        android:textSize="15sp"
+        android:textColor="#ffffff"/>
+
+</LinearLayout>
